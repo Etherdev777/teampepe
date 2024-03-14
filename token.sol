@@ -156,7 +156,7 @@ contract TeamPepe is Context, IERC20, Ownable {
     uint8 private constant _decimals = 18;
     uint256 private constant _tTotal = 454000000000000 * 10**_decimals; // Total supply
     string private constant _name = unicode"Team pepe";  // Name
-    string private constant _symbol = unicode"Team"; // Symbol
+    string private constant _symbol = unicode"teampepe"; // Symbol
     uint256 public _taxSwapThreshold= 1000000000 * 10**_decimals;
 
     uint256 public _feeOnBuy = 1; //Buy fee
